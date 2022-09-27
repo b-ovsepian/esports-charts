@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    color: rgb(191, 191, 203);
+    @apply bg-black;
+}
+
+.bg-red {
+    @apply bg-red-500;
+}
+
+.bg-yellow {
+    @apply bg-yellow-500;
+}
+
+.bg-green {
+    @apply bg-green-500;
+}
+
+.bg-blue {
+    @apply bg-blue-500;
+}
+
+.bg-orange {
+    @apply bg-orange-500;
+}
+
+.bg-gray {
+    @apply bg-gray-200;
+}
+
+.bg-card {
+    background-color: #1a1a20;
+}
+
+.card__inner {
+    @apply p-6 pb-5 border-b border-gray-800;
+}
